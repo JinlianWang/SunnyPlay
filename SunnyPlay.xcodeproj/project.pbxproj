@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6286368500212B9D41FD2A48 /* Pods_SunnyPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6589AAD7A330878D9E891FD /* Pods_SunnyPlayTests.framework */; };
+		B6568A833FBE9E1D2E086C56 /* Pods_SunnyPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */; };
 		E1F6983521EA4D4400939AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6983421EA4D4400939AB9 /* AppDelegate.swift */; };
 		E1F6983721EA4D4400939AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6983621EA4D4400939AB9 /* ViewController.swift */; };
 		E1F6983A21EA4D4400939AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F6983821EA4D4400939AB9 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		E1F6983F21EA4D4900939AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F6983D21EA4D4900939AB9 /* LaunchScreen.storyboard */; };
 		E1F6984A21EA4D4900939AB9 /* SunnyPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6984921EA4D4900939AB9 /* SunnyPlayTests.swift */; };
 		E1F6985521EA4D4900939AB9 /* SunnyPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6985421EA4D4900939AB9 /* SunnyPlayUITests.swift */; };
+		E1F6986621EA522200939AB9 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6986521EA522200939AB9 /* Customer.swift */; };
+		E495B0D5947E834C21BA25BA /* Pods_SunnyPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A312C120E7BA19A91BCCBCF /* Pods_SunnyPlay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1633276281F07D1D74C19CDB /* Pods-SunnyPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlay/Pods-SunnyPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		2C0F116789DA3F2466543899 /* Pods-SunnyPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlayUITests/Pods-SunnyPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3E46914795C625C8764E9F /* Pods-SunnyPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlay/Pods-SunnyPlay.release.xcconfig"; sourceTree = "<group>"; };
+		9A312C120E7BA19A91BCCBCF /* Pods_SunnyPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6589AAD7A330878D9E891FD /* Pods_SunnyPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE00212D9306ED04DE546AF /* Pods-SunnyPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlayTests/Pods-SunnyPlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEC7FC3066D1B6C1E94698C6 /* Pods-SunnyPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlayTests/Pods-SunnyPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F6983121EA4D4400939AB9 /* SunnyPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F6983421EA4D4400939AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F6983621EA4D4400939AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		E1F6985021EA4D4900939AB9 /* SunnyPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F6985421EA4D4900939AB9 /* SunnyPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyPlayUITests.swift; sourceTree = "<group>"; };
 		E1F6985621EA4D4A00939AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F6986521EA522200939AB9 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F325CF13F647433E12F10421 /* Pods-SunnyPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlayUITests/Pods-SunnyPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E495B0D5947E834C21BA25BA /* Pods_SunnyPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6286368500212B9D41FD2A48 /* Pods_SunnyPlayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6568A833FBE9E1D2E086C56 /* Pods_SunnyPlayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63D293F5953763403B833D02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1633276281F07D1D74C19CDB /* Pods-SunnyPlay.debug.xcconfig */,
+				2C3E46914795C625C8764E9F /* Pods-SunnyPlay.release.xcconfig */,
+				AEC7FC3066D1B6C1E94698C6 /* Pods-SunnyPlayTests.debug.xcconfig */,
+				ABE00212D9306ED04DE546AF /* Pods-SunnyPlayTests.release.xcconfig */,
+				2C0F116789DA3F2466543899 /* Pods-SunnyPlayUITests.debug.xcconfig */,
+				F325CF13F647433E12F10421 /* Pods-SunnyPlayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2DEC24DCA5653FF65AB40E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A312C120E7BA19A91BCCBCF /* Pods_SunnyPlay.framework */,
+				A6589AAD7A330878D9E891FD /* Pods_SunnyPlayTests.framework */,
+				C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1F6982821EA4D4400939AB9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				E1F6984821EA4D4900939AB9 /* SunnyPlayTests */,
 				E1F6985321EA4D4900939AB9 /* SunnyPlayUITests */,
 				E1F6983221EA4D4400939AB9 /* Products */,
+				63D293F5953763403B833D02 /* Pods */,
+				D2DEC24DCA5653FF65AB40E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +139,7 @@
 		E1F6983321EA4D4400939AB9 /* SunnyPlay */ = {
 			isa = PBXGroup;
 			children = (
+				E1F6986221EA518E00939AB9 /* NetworkLayer */,
 				E1F6983421EA4D4400939AB9 /* AppDelegate.swift */,
 				E1F6983621EA4D4400939AB9 /* ViewController.swift */,
 				E1F6983821EA4D4400939AB9 /* Main.storyboard */,
@@ -125,6 +168,30 @@
 			path = SunnyPlayUITests;
 			sourceTree = "<group>";
 		};
+		E1F6986221EA518E00939AB9 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E1F6986421EA51BF00939AB9 /* APIRequests */,
+				E1F6986321EA51B400939AB9 /* Models */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		E1F6986321EA51B400939AB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1F6986521EA522200939AB9 /* Customer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1F6986421EA51BF00939AB9 /* APIRequests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIRequests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1F6985921EA4D4A00939AB9 /* Build configuration list for PBXNativeTarget "SunnyPlay" */;
 			buildPhases = (
+				13D6E403F0919D6A5818FF2E /* [CP] Check Pods Manifest.lock */,
 				E1F6982D21EA4D4400939AB9 /* Sources */,
 				E1F6982E21EA4D4400939AB9 /* Frameworks */,
 				E1F6982F21EA4D4400939AB9 /* Resources */,
+				EDFF33AAD5D1909DD2E784D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1F6985C21EA4D4A00939AB9 /* Build configuration list for PBXNativeTarget "SunnyPlayTests" */;
 			buildPhases = (
+				8701C17E1CC80CC7B6B17708 /* [CP] Check Pods Manifest.lock */,
 				E1F6984121EA4D4900939AB9 /* Sources */,
 				E1F6984221EA4D4900939AB9 /* Frameworks */,
 				E1F6984321EA4D4900939AB9 /* Resources */,
@@ -167,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1F6985F21EA4D4A00939AB9 /* Build configuration list for PBXNativeTarget "SunnyPlayUITests" */;
 			buildPhases = (
+				056750416F5B9070FC1DFB8B /* [CP] Check Pods Manifest.lock */,
 				E1F6984C21EA4D4900939AB9 /* Sources */,
 				E1F6984D21EA4D4900939AB9 /* Frameworks */,
 				E1F6984E21EA4D4900939AB9 /* Resources */,
@@ -251,11 +322,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		056750416F5B9070FC1DFB8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunnyPlayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D6E403F0919D6A5818FF2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunnyPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8701C17E1CC80CC7B6B17708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunnyPlayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDFF33AAD5D1909DD2E784D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SunnyPlay/Pods-SunnyPlay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyPlay/Pods-SunnyPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1F6982D21EA4D4400939AB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F6986621EA522200939AB9 /* Customer.swift in Sources */,
 				E1F6983721EA4D4400939AB9 /* ViewController.swift in Sources */,
 				E1F6983521EA4D4400939AB9 /* AppDelegate.swift in Sources */,
 			);
@@ -428,16 +579,19 @@
 		};
 		E1F6985A21EA4D4A00939AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1633276281F07D1D74C19CDB /* Pods-SunnyPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SunnyPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyCorps.SunnyPlay.SunnyPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyCorps.SunnyPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +599,19 @@
 		};
 		E1F6985B21EA4D4A00939AB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3E46914795C625C8764E9F /* Pods-SunnyPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SunnyPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyCorps.SunnyPlay.SunnyPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyCorps.SunnyPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +619,7 @@
 		};
 		E1F6985D21EA4D4A00939AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC7FC3066D1B6C1E94698C6 /* Pods-SunnyPlayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +640,7 @@
 		};
 		E1F6985E21EA4D4A00939AB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE00212D9306ED04DE546AF /* Pods-SunnyPlayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +661,7 @@
 		};
 		E1F6986021EA4D4A00939AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0F116789DA3F2466543899 /* Pods-SunnyPlayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +681,7 @@
 		};
 		E1F6986121EA4D4A00939AB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F325CF13F647433E12F10421 /* Pods-SunnyPlayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
