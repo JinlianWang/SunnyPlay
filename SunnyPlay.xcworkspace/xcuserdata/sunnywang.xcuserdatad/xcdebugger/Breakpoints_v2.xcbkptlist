@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SunnyPlay/NetworkLayer/Models/Customer.swift"
-            timestampString = "569085702.926832"
+            timestampString = "569095134.436229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "mapping(map:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -25,56 +25,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SunnyPlay/ViewController.swift"
-            timestampString = "569087103.673649"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "loginButtonClicked(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SunnyPlay.ViewController.loginButtonClicked(Any) -&gt; ()"
-                  moduleName = "SunnyPlay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sunnywang/Documents/workspaceiOS/SunnyPlay/SunnyPlay/ViewController.swift"
-                  timestampString = "569085838.992821"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "67">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;SunnyPlay.Customer&gt;) -&gt; () in SunnyPlay.ViewController.loginButtonClicked(Any) -&gt; ()"
-                  moduleName = "SunnyPlay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sunnywang/Documents/workspaceiOS/SunnyPlay/SunnyPlay/ViewController.swift"
-                  timestampString = "569085838.9961981"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "22">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Pods/Alamofire/Source/SessionManager.swift"
-            timestampString = "569087103.676407"
+            timestampString = "569095134.436823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "237"

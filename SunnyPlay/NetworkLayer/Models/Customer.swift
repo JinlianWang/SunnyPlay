@@ -6,7 +6,6 @@
 //  Copyright © 2019 Sunny Wang. All rights reserved.
 //
 
-import UIKit
 import ObjectMapper
 
 class Customer: Mappable {

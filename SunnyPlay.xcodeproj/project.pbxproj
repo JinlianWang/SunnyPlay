@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6286368500212B9D41FD2A48 /* Pods_SunnyPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6589AAD7A330878D9E891FD /* Pods_SunnyPlayTests.framework */; };
 		B6568A833FBE9E1D2E086C56 /* Pods_SunnyPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */; };
+		E16C1F2021EBA6A6000146F6 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C1F1F21EBA6A6000146F6 /* ApiRequest.swift */; };
+		E16C1F2221EBA792000146F6 /* GetCustomerByIdApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C1F2121EBA792000146F6 /* GetCustomerByIdApiRequest.swift */; };
 		E1F6983521EA4D4400939AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6983421EA4D4400939AB9 /* AppDelegate.swift */; };
 		E1F6983721EA4D4400939AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6983621EA4D4400939AB9 /* ViewController.swift */; };
 		E1F6983A21EA4D4400939AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F6983821EA4D4400939AB9 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		ABE00212D9306ED04DE546AF /* Pods-SunnyPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlayTests/Pods-SunnyPlayTests.release.xcconfig"; sourceTree = "<group>"; };
 		AEC7FC3066D1B6C1E94698C6 /* Pods-SunnyPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyPlayTests/Pods-SunnyPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16C1F1F21EBA6A6000146F6 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		E16C1F2121EBA792000146F6 /* GetCustomerByIdApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerByIdApiRequest.swift; sourceTree = "<group>"; };
 		E1F6983121EA4D4400939AB9 /* SunnyPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F6983421EA4D4400939AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F6983621EA4D4400939AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 		E1F6986421EA51BF00939AB9 /* APIRequests */ = {
 			isa = PBXGroup;
 			children = (
+				E16C1F1F21EBA6A6000146F6 /* ApiRequest.swift */,
+				E16C1F2121EBA792000146F6 /* GetCustomerByIdApiRequest.swift */,
 			);
 			path = APIRequests;
 			sourceTree = "<group>";
@@ -418,8 +424,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16C1F2221EBA792000146F6 /* GetCustomerByIdApiRequest.swift in Sources */,
 				E1F6986621EA522200939AB9 /* Customer.swift in Sources */,
 				E1F6983721EA4D4400939AB9 /* ViewController.swift in Sources */,
+				E16C1F2021EBA6A6000146F6 /* ApiRequest.swift in Sources */,
 				E1F6983521EA4D4400939AB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
