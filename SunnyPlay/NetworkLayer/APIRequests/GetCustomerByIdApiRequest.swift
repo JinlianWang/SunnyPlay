@@ -11,7 +11,7 @@ import Alamofire
 import Result
 import BrightFutures
 
-class GetCustomerByIdApiRequest: ApiRequest {
+class GetCustomerByIdApiRequest: ApiRequest<Customer, NoError> {
     
     var id: String
     
@@ -28,21 +28,5 @@ class GetCustomerByIdApiRequest: ApiRequest {
             "Authorization": "Bearer SunnyWang",
             "Accept": "application/json"
         ]
-    }
-    
-    func execute() -> Future<Customer?, NoError> {
-        return Future { complete in
-            Alamofire.request(path, headers: headers)
-                .validate(statusCode: 200..<300)
-                .responseObject { (response: DataResponse<Customer>) in
-                    switch response.result{
-                    case .success(let customer):
-                        complete(.success(customer))
-                    case .failure(let error):
-                        print("error: \(error)")
-                        complete(.success(nil))
-                    }
-            }
-        }
     }
 }
