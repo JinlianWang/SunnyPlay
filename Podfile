@@ -7,6 +7,7 @@ target 'SunnyPlay' do
 
   # Pods for SunnyPlay
   pod 'Alamofire'
+  pod 'BrightFutures'
   pod 'AlamofireObjectMapper', '~> 5.2'
 
   target 'SunnyPlayTests' do

@@ -114,6 +114,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E16C1F1C21EB8C3B000146F6 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		E1F6982821EA4D4400939AB9 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +178,7 @@
 		E1F6986221EA518E00939AB9 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				E16C1F1C21EB8C3B000146F6 /* Http */,
 				E1F6986421EA51BF00939AB9 /* APIRequests */,
 				E1F6986321EA51B400939AB9 /* Models */,
 			);
@@ -386,13 +394,17 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SunnyPlay/Pods-SunnyPlay-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BrightFutures/BrightFutures.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightFutures.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
