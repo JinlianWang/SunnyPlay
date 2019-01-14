@@ -11,7 +11,7 @@ import Alamofire
 import Result
 import BrightFutures
 
-class GetCustomerByIdApiRequest: ApiRequest<Customer, NoError> {
+class GetCustomerByIdApiRequest: ApiRequest<Customer> {
     
     var id: String
     

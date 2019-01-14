@@ -13,7 +13,7 @@ import Alamofire
 import Result
 import BrightFutures
 
-class ApiRequest<ResultType:Mappable, ErrorType:Error> {
+class ApiRequest<ResultType:Mappable> {
     var path: String {
         return ""
     }
@@ -30,19 +30,19 @@ class ApiRequest<ResultType:Mappable, ErrorType:Error> {
         return HTTPMethod.get
     }
     
-    func execute() -> Future<ResultType?, NoError> {
-        return Future { complete in
-            Alamofire.request(path, headers: headers)
-                .validate(statusCode: 200..<300)
-                .responseObject { (response: DataResponse<ResultType>) in
-                    switch response.result{
-                    case .success(let result):
-                        complete(.success(result))
-                    case .failure(let error):
-                        print("error: \(error)")
-                        complete(.success(nil))
-                    }
-            }
+    func execute() -> Future<ResultType? , ApiError> {
+        let promise = Promise<ResultType?, ApiError>()
+        Alamofire.request(path, headers: headers)
+            .validate(statusCode: 200..<300)
+            .responseObject { (response: DataResponse<ResultType>) in
+                switch response.result{
+                case .success(let result):
+                    promise.success(result)
+                case .failure(let error):
+                    print("error: \(error)")
+                    promise.failure(error as! ApiError)
+                }
         }
+        return promise.future
     }
 }

@@ -11,6 +11,7 @@
 		B6568A833FBE9E1D2E086C56 /* Pods_SunnyPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */; };
 		E16C1F2021EBA6A6000146F6 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C1F1F21EBA6A6000146F6 /* ApiRequest.swift */; };
 		E16C1F2221EBA792000146F6 /* GetCustomerByIdApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C1F2121EBA792000146F6 /* GetCustomerByIdApiRequest.swift */; };
+		E16C1F2421EBE8F3000146F6 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C1F2321EBE8F3000146F6 /* ApiError.swift */; };
 		E1F6983521EA4D4400939AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6983421EA4D4400939AB9 /* AppDelegate.swift */; };
 		E1F6983721EA4D4400939AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6983621EA4D4400939AB9 /* ViewController.swift */; };
 		E1F6983A21EA4D4400939AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F6983821EA4D4400939AB9 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		C4FCF92932E587A994626B2A /* Pods_SunnyPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16C1F1F21EBA6A6000146F6 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		E16C1F2121EBA792000146F6 /* GetCustomerByIdApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerByIdApiRequest.swift; sourceTree = "<group>"; };
+		E16C1F2321EBE8F3000146F6 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		E1F6983121EA4D4400939AB9 /* SunnyPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F6983421EA4D4400939AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F6983621EA4D4400939AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				E1F6986521EA522200939AB9 /* Customer.swift */,
+				E16C1F2321EBE8F3000146F6 /* ApiError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				E1F6983721EA4D4400939AB9 /* ViewController.swift in Sources */,
 				E16C1F2021EBA6A6000146F6 /* ApiRequest.swift in Sources */,
 				E1F6983521EA4D4400939AB9 /* AppDelegate.swift in Sources */,
+				E16C1F2421EBE8F3000146F6 /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

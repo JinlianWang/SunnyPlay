@@ -26,11 +26,7 @@ class ViewController: UIViewController {
 
     @IBAction func loginButtonClicked(_ sender: Any) {
         GetCustomerByIdApiRequest(id: "2").execute().onSuccess { (customer) in
-            if let customer = customer {
-                print("first name: \(customer.firstName!) last name: \(customer.lastName!)")
-            } else {
-                print ("no customer is found")
-            }
+
         }
     }
  
